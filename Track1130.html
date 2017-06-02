@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=620">
+    <title>Blotrack</title>
+    <link rel="stylesheet" href="simpleplayer.css" type="text/css">
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="jquery.simpleplayer.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var settings = {
+                progressbarWidth: '150px',
+                progressbarHeight: '10px',
+                progressbarColor: '#53C7C6',
+                progressbarBGColor: '#ebebeb',
+                defaultVolume: 0.8
+            };
+            $(".player").player(settings);
+        });
+    </script>
+
+
+        <audio class="player" src="http://utapdio.s602.xrea.com/blotrack/song/Track1130.mp3">  
+          Your browser does not support the <code>audio</code> element.  
+        </audio>
+    
+</body>
+</html>

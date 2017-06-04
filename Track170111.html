@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=620">
     <title>Blotrack</title>
-    <link rel="stylesheet" href="https://ss1.xrea.com/utapdio.s602.xrea.com/blotrack/simpleplayer.css" type="text/css">
-
+    <link rel="stylesheet" href="assest/simpleplayer.css" type="text/css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="https://ss1.xrea.com/utapdio.s602.xrea.com/blotrack/jquery.simpleplayer.js"></script>
+    <script src="assest/jquery.simpleplayer.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             var settings = {
@@ -19,11 +20,12 @@
             $(".player").player(settings);
         });
     </script>
+</head>
 
 
-        <audio class="player" src="https://ss1.xrea.com/utapdio.s602.xrea.com/blotrack/song/Track170111.mp3">
-          Your browser does not support the <code>audio</code> element.
+        <audio class="player" src="tracks/Track170111.mp3">  
+          <!-- Your browser does not support the <code>audio</code> element.   -->
         </audio>
-
+    
 </body>
 </html>
